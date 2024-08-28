@@ -1,0 +1,57 @@
+ * {
+    padding: 0px;
+    margin: 10px;
+    }
+
+    body {
+        text-align: center;
+        align-items: center;
+    }
+    
+
+    div>input{
+        border-radius: 5px;
+    }
+    
+    textarea {
+        border-radius: 5px;
+
+    }
+
+    .form-box {
+        display: flex;
+        flex-direction: column;
+        background-color: #c2c2c1;
+        border-radius: 10px;
+        width: 50%;
+        border-bottom: 50px;
+        min-width: min-content;
+    }
+    
+    .botao {
+        padding: 15px;
+        border-bottom: 18px;
+        border-radius: 10px;
+    }
+
+    @media only screen and (max-width: 1199px){
+        body {
+        
+        }
+        .form-box{
+            display: block;
+        }
+    }
+    
+    
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+        body {
+            
+        }
+        .form-box {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+    }
